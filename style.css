@@ -7,12 +7,6 @@ body {
     font-family: var(--montserrat-font);
     box-sizing: border-box;
 }
-.container{
-    position: relative;
-    top: 0;
-    width: 100%;
-    overflow-y: auto;
-}
 .bio {
     text-align: center;
 }
@@ -54,7 +48,7 @@ main {
 }
 .posts {
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     row-gap: 10px;
