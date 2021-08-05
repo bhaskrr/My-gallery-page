@@ -100,7 +100,7 @@ footer > p {
         margin: 0.5rem;
         padding: 0.5rem;
     }
-    header > section > img {
+    .profile-photo {
         width: 30%;
         margin: 0.2rem;
     }
