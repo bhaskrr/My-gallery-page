@@ -1,0 +1,123 @@
+:root {
+    --bg-color: rgb(229,229,229);
+    --montserrat-font: 'Montserrat', sans-serif;
+}
+/** {
+    border: 1px solid red;
+}*/
+body {
+    margin: 5rem;
+    font-family: var(--montserrat-font);
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.2rem;
+}
+.gray-text {
+    color: rgb(150,150,150);
+}
+.big-nums {
+    font-size: 1.5rem;
+}
+.activity {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 6rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1rem;
+    background: var(--bg-color);
+}
+header > section > img {
+    width: 20%;
+    margin: 1rem;
+}
+img , .box {
+    border-radius: 1rem;
+}
+img {
+    margin: 2rem;
+}
+.top-two-photos {
+    display: grid;
+    grid-template-columns: 1.17fr 1.5fr;
+    grid-template-rows: 1fr;
+}
+.img1-sec {
+    text-align: right;
+}
+.img2-sec {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.bottom-four-photos {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+.bathtub-photo {
+    text-align: right;
+}
+.bottom-small-photos {
+    display: flex;
+    justify-content: flex-end;
+}
+.img4 {
+    height: 95%;
+}
+footer > p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    body {
+        margin: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p , .big-nums {
+        font-size: 0.7rem;
+    }
+    .box {
+        width: 4rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    header > section > img {
+        width: 30%;
+        margin: 0.2rem;
+    }
+    img {
+        margin: 1rem;
+    }
+    .top-two-photos {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+    }
+    .img1-sec {
+        width: 95%;
+    }
+    .img1 {
+      width: 100%;
+    }
+    .img2-sec {
+        width: 100%;
+    }
+    .img2 {
+        width: 100%;
+    }
+
+}
