@@ -2,9 +2,9 @@
     --bg-color: rgb(229,229,229);
     --montserrat-font: 'Montserrat', sans-serif;
 }
-/** {
+* {
     border: 1px solid red;
-}*/
+}
 body {
     margin: 5rem;
     font-family: var(--montserrat-font);
@@ -47,8 +47,7 @@ p {
 .profile-photo {
     margin: 0 auto;
     display: block;
-    max-width: 50%;
-    max-height: 50%;
+    width: 20%;
     border-radius: 1rem;
 }
 img , .box {
