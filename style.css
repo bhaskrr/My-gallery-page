@@ -92,6 +92,9 @@ footer > p {
     h2 {
         font-size: 1.5rem;
     }
+    .profile-photo {
+        width: 30%;
+    }
     p , .big-nums {
         font-size: 0.7rem;
     }
