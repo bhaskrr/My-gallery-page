@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://bhaskrr.github.io/My-gallery-page/}">
+    <a href="https://my-gallery-page-five.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://bhaskrr.github.io/My-gallery-page/">
+    <a href="https://my-gallery-page-five.vercel.app/">
       Solution
     </a>
     <span> | </span>
