@@ -87,7 +87,7 @@ a {
         width: 15%;
     }
     .profileStats {
-        margin: 2rem 0 2rem 0;
+        margin: 2rem 0;
     }
     .statBox {
         width: 8rem;
@@ -114,7 +114,7 @@ a {
         border-radius: 0.2rem;
     }
     .profileStats {
-        margin: 1.5rem 0 ;
+        margin: 1rem 0 ;
     }
     .statBox {
         width: 5rem;
@@ -129,7 +129,7 @@ a {
     }
 }
 @media screen and (max-width: 425px) {
-    header {
+    header, .profileStats{
         margin: 1rem 0;
     }
     .profile {
@@ -141,9 +141,6 @@ a {
     }
     img {
         border-radius: 0.2rem;
-    }
-    .profileStats {
-        margin: 2rem 0 2rem 0;
     }
     .statBox {
         width: 4rem;
