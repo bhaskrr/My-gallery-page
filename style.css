@@ -112,7 +112,7 @@ a {
         width: 30%;
     }
     img {
-        border-radius: 1rem;
+        border-radius: 0.5rem;
     }
     .profileStats {
         margin: 2rem 0 2rem 0;
