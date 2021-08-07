@@ -71,7 +71,7 @@ footer {
     text-align: center;
 }
 footer > p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 a {
     text-decoration: none;
@@ -97,7 +97,7 @@ a {
         font-size: 1.5rem;
     }
     footer > p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
 }
@@ -122,7 +122,7 @@ a {
         font-size: 1rem;
     }
     footer > p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -146,6 +146,6 @@ a {
         font-size: 1rem;
     }
     footer > p {
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
 }
