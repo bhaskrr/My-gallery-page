@@ -68,12 +68,7 @@ span {
     grid-row: 2/4;
 }
 footer {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background: rgb(240,240,240);
+    text-align: center;
 }
 footer > p {
     font-size: 2rem;
